@@ -1,0 +1,274 @@
+---
+title: "Homework 3"
+author: "???"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+**NOTE:** This document is for your answers only. Do NOT write out the homework questions in this document. Writing out the questions makes it very challenging to grade the homework. (You can create a separate document for your own records if you wish.)
+
+
+```{r setup, echo = FALSE, warning = FALSE}
+# DO NOT MODIFY THIS CHUNK
+knitr::opts_chunk$set(
+  collapse = TRUE, 
+  warning = FALSE,
+  message = FALSE,
+  fig.height = 2.75, 
+  fig.width = 4.25,
+  fig.env='figure',
+  fig.pos = 'h',
+  fig.align = 'center')
+```
+
+
+```{r message=FALSE, warning=FALSE}
+# Load packages
+# (You might need to install ggridges)
+library(ggridges) # for joy plots
+library(tidymodels)
+library(tidyverse)
+
+# Load data
+music <- read.csv("https://ajohns24.github.io/data/spotify_new.csv")
+```
+
+
+
+
+\
+\
+\
+\
+
+
+
+
+# EXERCISE 1
+
+## Part a
+
+```{r}
+
+
+
+```
+
+
+## Part b
+
+```{r}
+
+
+
+```
+
+
+
+## Part c
+
+**COMMENTS:** 
+
+
+
+
+```{r fig.height = 7, fig.width = 6}
+
+
+
+```
+
+
+
+## Part d
+
+```{r}
+
+
+
+```
+    
+
+
+\
+\
+\
+\
+\
+\
+
+
+
+# EXERCISE 2
+
+## Part a
+
+
+```{r}
+
+
+
+
+
+```
+
+
+
+
+\
+
+
+## Part b
+
+**EXACT NUMBER:** $\lambda = ???????$
+
+```{r}
+
+
+```
+
+
+
+\
+
+
+## Part c
+
+**NUMBER OF PREDICTORS:**
+
+**WHICH PREDICTORS:**
+
+
+```{r}
+
+
+
+
+```
+
+
+
+
+
+\
+
+## Part d
+
+**INTERPRETATION:**
+
+
+
+```{r}
+
+
+
+```
+
+
+
+
+
+
+
+
+
+\
+\
+\
+\
+\
+\
+
+
+# EXERCISE 3
+
+## Part a
+
+```{r fig.width = 5, fig.height = 4}
+
+
+
+
+```
+
+
+
+\
+
+## Part b
+
+
+
+
+
+
+
+\
+
+## Part c
+
+```{r fig.width = 8, fig.height = 6}
+
+
+
+
+
+```
+
+
+## Part d
+
+
+
+
+
+
+
+
+\
+\
+\
+\
+\
+\
+
+
+
+# EXERCISE 4
+
+## Part a
+
+
+
+
+
+
+\
+
+## Part b
+
+**COMMENT:**
+
+
+
+```{r}
+
+
+
+```
+
+
+    
+
+\
+
+## Part c
+
+
+
+
+
+
