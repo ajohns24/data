@@ -1,4 +1,4 @@
-Timestamp,What is your year in school?,"How many MONTHS old are you? Just enter an integer with no frills, no words, etc.","How many credits have you earned (as reported on Degree Works)? Just enter an integer with no frills, no words, etc.","What is your declared or potential major?  If you are a double major, just pick whichever one you think of first. If you are a first year, just take your best guess!","In what ""division"" is the major you listed above?",Have you ever tried tater tot hotdish (a classic Minnesotan food)?,Have you ever gone sledding on the snow?,In what time of year were you born?
+Timestamp,year,age,credits,major,division,tots,sledding,birth
 1/16/2026 16:27:34,first year,226,40,Neuroscience,natural sciences & math,no,yes,January - June
 1/16/2026 17:28:46,sophomore,233,76,Economics,social sciences,no,yes,July - December
 1/17/2026 0:02:55,sophomore,240,46,Economics,social sciences,no,no,July - December
