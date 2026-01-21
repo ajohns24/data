@@ -1,4 +1,51 @@
 Timestamp,year,age,credits,major,division,tots,sledding,birth
+8/26/2025 14:16:31,junior,240,89,Economics,social sciences,yes,yes,July - December
+8/26/2025 14:17:37,sophomore,238,,Chemistry,natural sciences & math,no,no,July - December
+8/26/2025 14:41:02,sophomore,235,72,Sociology,social sciences,no,yes,January - June
+8/26/2025 14:41:50,first year,224,48,Computer Science,natural sciences & math,no,yes,July - December
+8/26/2025 14:45:10,sophomore,229,40,Biology,natural sciences & math,no,yes,July - December
+8/26/2025 15:11:48,sophomore,234,72,Biology,natural sciences & math,no,yes,January - June
+8/26/2025 15:22:31,sophomore,252,68,Neuroscience,natural sciences & math,yes,no,January - June
+8/26/2025 15:31:18,first year,226,32,Anthropology,social sciences,no,yes,July - December
+8/26/2025 16:17:16,first year,235,47,Biology,natural sciences & math,no,no,January - June
+8/26/2025 16:34:59,first year,236,0,Statistics,natural sciences & math,no,yes,January - June
+8/26/2025 17:17:50,sophomore,235,82,Economics,social sciences,no,yes,January - June
+8/26/2025 17:21:57,senior,254,132,Computer Science,natural sciences & math,no,yes,January - June
+8/26/2025 17:25:26,first year,224,0,Political Science,social sciences,yes,yes,July - December
+8/26/2025 17:59:03,senior,262,127,Linguistics,social sciences,no,yes,July - December
+8/26/2025 18:08:33,first year,215,35,Computer Science,natural sciences & math,no,yes,July - December
+8/27/2025 11:55:45,junior,244,64,Psychology,social sciences,no,no,January - June
+8/27/2025 16:21:53,junior,242,92,Economics,social sciences,yes,yes,January - June
+8/27/2025 20:15:49,senior,257,118,Sociology,social sciences,no,yes,January - June
+8/27/2025 23:46:32,first year,254,12,Economics,social sciences,no,no,January - June
+8/28/2025 8:24:54,senior,252,130,Chemistry,natural sciences & math,no,yes,July - December
+8/28/2025 11:07:49,first year,18,0,Economics,social sciences,no,no,July - December
+8/28/2025 12:57:14,junior,260,82,Computer Science,natural sciences & math,no,yes,July - December
+8/29/2025 2:17:26,first year,204,0,Psychology,social sciences,no,yes,July - December
+8/29/2025 16:38:53,junior,250,96,Biology,natural sciences & math,no,yes,July - December
+8/29/2025 20:49:25,senior,254,142,Computer Science,natural sciences & math,no,no,January - June
+8/30/2025 16:49:04,junior,241,84,Biology,natural sciences & math,yes,yes,July - December
+8/31/2025 9:05:31,sophomore,234,74,Neuroscience,natural sciences & math,no,yes,January - June
+9/1/2025 10:10:24,sophomore,236,48,Neuroscience,natural sciences & math,no,yes,January - June
+9/1/2025 10:35:14,sophomore,248,32,Economics,social sciences,yes,no,January - June
+9/1/2025 10:38:58,first year,226,32,Political Science,social sciences,no,yes,July - December
+9/1/2025 11:09:25,sophomore,233,34,Economics,social sciences,no,no,January - June
+9/1/2025 13:13:53,sophomore,235,32,History,humanities & fine arts,no,yes,January - June
+9/1/2025 14:41:39,first year,216,8,Neuroscience,natural sciences & math,no,no,July - December
+9/1/2025 14:42:57,first year,241,0,Economics,social sciences,no,no,July - December
+9/1/2025 14:57:27,first year,216,32,Mathematics,natural sciences & math,yes,yes,July - December
+9/1/2025 15:46:24,sophomore,240,34,Media & Cultural Studies,humanities & fine arts,no,yes,July - December
+9/1/2025 17:43:02,sophomore,228,64,Economics,social sciences,no,yes,July - December
+9/1/2025 18:33:15,senior,247,100,Computer Science,natural sciences & math,yes,yes,January - June
+9/1/2025 22:34:18,sophomore,240,32,Economics,social sciences,no,no,January - June
+9/2/2025 1:29:11,junior,241,83,American Studies,humanities & fine arts,no,yes,July - December
+9/2/2025 9:44:29,junior,228,80,Biology,natural sciences & math,yes,yes,July - December
+9/2/2025 10:55:46,first year,223,0,,,no,yes,January - June
+9/2/2025 12:54:54,sophomore,224,16,Sociology,humanities & fine arts,yes,yes,January - June
+9/2/2025 13:21:57,first year,228,61,Data Science,natural sciences & math,no,yes,July - December
+9/2/2025 13:32:29,sophomore,234,80,Mathematics,natural sciences & math,no,yes,January - June
+9/2/2025 14:31:48,sophomore,233,57,Environmental Studies,natural sciences & math,no,yes,January - June
+9/2/2025 15:07:25,junior,255,64,Economics,social sciences,no,yes,January - June
 1/16/2026 16:27:34,first year,226,40,Neuroscience,natural sciences & math,no,yes,January - June
 1/16/2026 17:28:46,sophomore,233,76,Economics,social sciences,no,yes,July - December
 1/17/2026 0:02:55,sophomore,240,46,Economics,social sciences,no,no,July - December
