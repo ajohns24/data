@@ -1,0 +1,76 @@
+New CPS data
+
+https://cps.ipums.org/cps/codebooks.shtml#asec_codebooks
+
+https://cps.ipums.org/cps/resources/codebooks/cpsmar18.pdf
+
+http://asdfree.com/current-population-survey-annual-social-and-economic-supplement-cpsasec.html
+
+
+
+```{r}
+library(lodown)
+# examine all available CPSASEC microdata files
+cpsasec_cat <-
+    get_catalog( "cpsasec" ,
+        output_dir = file.path( path.expand( "~" ) , "CPSASEC" ) )
+
+
+# 2018 only
+cpsasec_2018 <- subset( cpsasec_cat , year == 2018)
+# download the microdata to your local computer
+cpsasec_dl <- lodown( "cpsasec" , cpsasec_2018 )
+
+try <- readRDS("/Users/ajohns24/CPSASEC/2018 cps asec.rds")
+dim(try)  #180084 records
+```
+
+
+Clean it
+service = service, sales, office support
+
+
+
+```{r}
+# Keep adults in the labor force
+adult_workers <- try %>% 
+    filter(a_age >= 18, a_civlf == 1)
+dim(adult_workers)
+
+
+# Keep only certain variables
+final <- adult_workers %>% 
+  select(wage = wsal_val, age = a_age, education = a_hga, sex = a_sex, marital = a_maritl, industry = a_mjocc, health = hea, hours = a_uslhrs, citizenship = prcitshp, disability = prdisflg) %>% 
+  filter(industry != 0) %>% 
+  filter(industry != 11) %>% 
+  filter(hours >= 0)
+
+# Define married (married, widowed) or single (divorced, separated, not married)
+final <- final %>% 
+    mutate(marital = factor(marital, labels = c("married", "married", "married", "married", "single", "single", "single"))) %>% 
+    mutate(sex = factor(sex, labels = c("male", "female"))) %>% 
+    mutate(industry = factor(industry, labels = c("management","management","service","service","service","ag","construction","installation_production","installation_production","transportation"))) %>% 
+    mutate(health = factor(health, labels = c("excellent","very_good","good","fair","poor"))) %>% 
+    mutate(citizenship = factor(citizenship, labels = c("yes","yes","yes","naturalized","no"))) %>% 
+    mutate(disability = factor(disability, labels = c("yes","no"))) %>% 
+    mutate(education_level = factor(education, labels = c("less_than_HS","less_than_HS","less_than_HS","less_than_HS","some_HS","some_HS","some_HS","some_HS","HS","some_college","associate","associate","bachelors","masters","professional_phd","professional_phd"))) %>% 
+    mutate(education = as.numeric(as.character(factor(education, labels =  c("0","2.5","5.5","7.5","9","10","11","11","12","13","14","14","16","18","20","20")))))
+
+```
+
+
+Down sample:
+
+```{r}
+set.seed(1978)
+final <- sample_n(final, size = 10000)
+```
+
+
+Write it out:
+
+```{r}
+write.csv(final, "/Users/ajohns24/Documents/Old_Computer_Documents/Statistics/Data*/CPS_2018.csv", row.names = FALSE)
+```
+
+
