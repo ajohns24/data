@@ -1,0 +1,25 @@
+Number of births per day of year based on 14 years of insurance data:  http://www.panix.com/~murphy/bdata.txt
+
+
+smoothed:
+# #get raw insurance data
+# x = read.table("http://www.panix.com/~murphy/bdata.txt", header=TRUE)
+# x = x[-367,]
+# #put an extra dec at the front and jan at the back to link the months
+# nbirths = c(x[336:366,2],x[,2],x[1:31,2])
+# dates = data.frame(day=c(1:428), number=nbirths)
+# #smooth the data
+# model <- loess(number ~ day, data=dates)
+# xseq <- c(1:428)
+# pred <- predict(model, newdata = data.frame(day = xseq), se=FALSE)
+# loess.DF <- data.frame(Day = c(1:366), Number = pred[32:397])
+# #add back in raw data for leap day
+# loess.DF$Number[60] <- dates$number[31+60]
+# #calculate proportion
+# loess.DF$Proportion <- loess.DF$Number / sum(loess.DF$Number)
+# #save the data
+# write.csv(loess.DF, "Birthdays.csv")
+                                                                                           
+                                                                                           
+                                                                                           
+
